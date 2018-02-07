@@ -6,6 +6,9 @@ function init() {
     var index = 0;
     if key === code[index] {
       index++;
+    if index === code.length {
+      alert("Hurray!")
+    }
     }
   }
   }

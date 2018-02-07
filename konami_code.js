@@ -11,7 +11,7 @@ function init() {
       index = 0;
     }
     }
-    } else {
+     else {
       console.log(e.which);
       index = 0;
     }

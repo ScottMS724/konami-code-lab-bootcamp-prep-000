@@ -12,7 +12,6 @@ function init() {
        index=0;
      }
   } else {
-       console.log(e.which);
        index=0;
      }
 });

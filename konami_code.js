@@ -9,15 +9,14 @@ function init() {
     if (index === code.length) {
       alert("Hurray!");
       index = 0;
+    }
+    }
     } else {
       console.log(e.which);
       index = 0;
     }
     }
-  }
-  }
 
-const alphabet = []
 let index = 0;
 function onKeyDownHandler(e) {
   const key = parseInt(e.which);

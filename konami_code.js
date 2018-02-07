@@ -13,7 +13,7 @@ function init() {
      }
   }
      else {
-       console.log(e.which);
+       console.log(key);
        index=0;
      }
 });

@@ -3,7 +3,7 @@ var index = 0;
 const body = document.querySelector('body');
 
 function init() {
-   document.body.addEventListener('keydown', function(e) {
+   body.addEventListener('keydown', function(e) {
       var key = parseInt(e.detail || e.which);
       if (key === code[index]) {
       index++;

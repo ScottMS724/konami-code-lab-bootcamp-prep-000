@@ -20,4 +20,3 @@ function init() {
 });
 }
 
-init();

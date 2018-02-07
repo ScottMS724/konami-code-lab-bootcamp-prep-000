@@ -8,7 +8,10 @@ function init() {
       index++;
     if (index === code.length) {
       alert("Hurray!");
-      index = 0
+      index = 0;
+    } else {
+      console.log(e.which);
+      index = 0;
     }
     }
   }
